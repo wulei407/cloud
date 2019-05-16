@@ -1,0 +1,13 @@
+server:
+  port: 8259
+  servlet:
+    context-path: /springboot
+
+management:
+  server:
+    port: 54001
+    servlet:
+      context-path: /monitor
+  endpoint:
+    shutdown:
+      enabled: true
